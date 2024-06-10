@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/solid.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/thinline.css">
+    <link rel="stylesheet" href="home.css">
+    <script src="home.js" defer></script>
+    <title>Gudang Senjata</title>
+</head>
+<body class="home">
+
+    <header class="primary-header container flex">
+        <div class="header-inner-one flex">
+            <div class="logo">
+                <img src="image/logo.png" alt="">
+            </div>
+            <button class="mobile-close-btn" data-visible="false" aria-controls="primary-navigation"><i class="uil uil-times-circle"></i></button>
+            <nav>
+                <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+                    <li><a class="active fs-100 fs-montserrat bold-500" href="home.html">Home</a></li>
+                    <li><a class="fs-100 fs-montserrat bold-500" href="shop.html">Shop</a></li>
+                    <li><a class="fs-100 fs-montserrat bold-500" href="about.html">About</a></li>
+                    <li><a class="fs-100 fs-montserrat bold-500" href="blog.html">Blog</a></li>
+                    <li><a class="fs-100 fs-montserrat bold-500" href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-login flex">
+            <p class="fs-100 fs-montserrat bold-500">login</p>
+            <i class="uil uil-search"></i>
+            <i id="cart-box" aria-controls="cart-icon" class="uil uil-shopping-bag"></i>
+
+            <!-- Cart Box -->
+            <div id="cart-icon" data-visible="false" class="cart-icon">
+                <div class="shopping flex">
+                    <p>Shopping Basket</p>
+                    <i id="cross-btn" class="uil uil-times"></i>
+                </div>
+                <div class="cart bold-800 flex">
+                    <i class="uil uil-shopping-cart-alt"></i>
+                    <p>Your Cart is Empty</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="mobile-open-btn">
+            <i class="uil uil-align-right"></i>
+        </div>
+    </header>
+
+    <!-- ============== HERI SECTION ============= -->
+    <main class="hero-section">
+        <div>
+            <h1 class="fs-200 fs-poppins">Leviathan Gaze<span class="big-series block fs-300 blod-900 fs-poppins">Omega</span><span class="text-white uppercase lineheight2 bold-bolder fs-poppins fs-900">Dagger</span></h1>
+            <img src="image/levgazeomega.png" alt="">
+        </div>
+        <div class="hero-inner flex">
+            <div>
+                <button class="large-btn bg-red text-white fs-poppins fs-50">Shop By Category</button>
+            </div>
+            <div class="hero-info">
+                <h4 class="fs-montserrat">Description</h4>
+                <p class="fs-montserrat">This alluring blade hews down anything standing in its path. The scars it leaves on a battlefield resemble the canyons that raging rapids gouge in the earth.</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- ========================= HERO END ========================== -->
+    
+    <!-- =================== PRODUCT SECTION =================== -->
+    <section class="category-product container">
+        <h2 class="letter-spacing bold-800 fs-poppins">Category</h2>
+        <!-- <p class="fs-montserrat fs-300">There are many variations of weapons</p> -->
+    </section>
+
+    <section class="product-section grid">
+
+        <!-- ========================== 1 ======================== -->
+        
+        <div class="category bg-black grid">
+            <div>
+                <h3 class="text-white fs-50 fs-montserrat">Enjoy <span class="block fs-300 fs-poppins">With</span> <span class="soul uppercase fs-400 fs-montserrat bold-900 lineheight">One-Handed</span></h3>
+                <button class="product-btn large-btn text-black bg-white fs-montserrat">Browse</button>
+            </div>
+            <div class="product-img1">
+                <img src="image/pangolinprime.webp" alt="">
+            </div>
+        </div>
+    
+        <!-- ========================== 2 ======================== -->
+    
+        <div class="category bg-yellow grid">
+            <div>
+                <h3 class="text-white fs-50 fs-montserrat">Enjoy <span class="block fs-300 fs-poppins">With</span> <span class="soul uppercase fs-400 fs-montserrat bold-900 lineheight">Two-Handed</span></h3>
+                <button class="product-btn large-btn text-yellow bg-white fs-montserrat">Browse</button>
+            </div>
+            <div class="product-img2">
+                <img src="image/namiskylaprime.webp" alt="">
+            </div>
+        </div>
+    
+        <!-- ========================== 3 ======================== -->
+    
+        <div class="category bg-red grid">
+            <div>
+                <h3 class="text-white fs-50 fs-montserrat">Enjoy <span class="block fs-300 fs-poppins">With</span> <span class="soul uppercase fs-400 fs-montserrat bold-900 lineheight">Projectile</span></h3>
+                <button class="product-btn large-btn text-red bg-white fs-montserrat">Browse</button>
+            </div>
+            <div class="product-img3">
+                <img src="image/raktacernos.webp" alt="">
+            </div>
+        </div>
+    
+        <!-- ========================== 4 ======================== -->
+    
+        <div class="category bg-purple grid">
+            <div>
+                <h3 class="text-white fs-50 fs-montserrat">Enjoy <span class="block fs-300 fs-poppins">With</span> <span class="soul uppercase fs-400 fs-montserrat bold-900 lineheight">Magical</span></h3>
+                <button class="product-btn large-btn text-purple bg-white fs-montserrat">Browse</button>
+            </div>
+            <div class="product-img4">
+                <img src="image/scourgeprime.webp" alt="">
+            </div>
+        </div>
+    
+        <!-- ========================== 5 ======================== -->
+    
+        <div class="category bg-green grid">
+            <div>
+                <h3 class="text-white fs-50 fs-montserrat">Enjoy <span class="block fs-300 fs-poppins">With</span> <span class="soul uppercase fs-400 fs-montserrat bold-900 lineheight">Weirdos</span></h3>
+                <button class="product-btn large-btn text-green bg-white fs-montserrat">Browse</button>
+            </div>
+            <div class="product-img5">
+                <img src="image/gunsenprime.webp" alt="">
+            </div>
+        </div>
+    
+        <!-- ========================== 6 ======================== -->
+    
+        <div class="category bg-blue grid">
+            <div>
+                <h3 class="text-white fs-50 fs-montserrat">Enjoy <span class="block fs-300 fs-poppins">With</span> <span class="soul uppercase fs-400 fs-montserrat bold-900 lineheight">Specialty</span></h3>
+                <button class="product-btn large-btn text-blue bg-white fs-montserrat">Browse</button>
+            </div>
+            <div class="product-img6">
+                <img src="image/falcor.webp" alt="">
+            </div>
+        </div>
+    </section>    
+
+    <!-- =================== PRODUCT SECTION END =================== -->
+
+    <!-- ====================== SERVICE SECTION ===================== -->
+
+    <section class="service-section">
+        <div class="service">
+            <div class="servimg">
+                <img src="image/shipping.png" alt="">
+            </div>
+            <div class="service-info">
+                <h3 class="fs-poppins fs-100">Limitless Shipping</h3>
+                <p class="fs-montserrat fs-50">Free Shipping On All Order, Across The Universe</p>
+            </div>
+        </div>
+        <div class="service">
+            <div class="servimg">
+                <img src="image/cett.png" alt="">
+            </div>
+            <div class="service-info">
+                <h3 class="fs-poppins fs-100">Super Guarantee</h3>
+                <p class="fs-montserrat fs-50">1 Year Money Back & Replacement</p>
+            </div>
+        </div>
+        <div class="service">
+            <div class="servimg">
+                <img src="image/cs.png" alt="">
+            </div>
+            <div class="service-info">
+                <h3 class="fs-poppins fs-100">Timeless Online Support</h3>
+                <p class="fs-montserrat fs-50">Technical Support All The Time</p>
+            </div>
+        </div>
+        <div class="service">
+            <div class="servimg">
+                <img src="image/gold.png" alt="">
+            </div>
+            <div class="service-info">
+                <h3 class="fs-poppins fs-100">Universal Payment</h3>
+                <p class="fs-montserrat fs-50">All Payment Method & Currencies</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================== END SERVICE ===================== -->
+
+    <!-- ================== Feature 1 Section ================== -->
+
+    <section class="feature-section bg-red">
+        <div class="feature-one grid">
+            <img src="image/feature1.png" alt="">
+            <div class="left-txt">
+                <p class="text-white fs-poppins uppercase lineheight2">Free Tuning</p>
+                <p class="fine font-size lineheight fs-500 text-white fs-poppins bold-900 uppercase">Fine <span class="smile">Weapon</span></p>
+                <p class="text-white fs-poppins fs-15 lineheight2">1 Sep - 30 Nov</p>
+            </div>
+        </div>
+        <div class="feature-info">
+            <h2 class="fs-200 text-white fs-poppins bold-800 uppercase">Winter is</h2>
+            <p class="fs-poppins fs-300 bold-800 text-white uppercase">Coming</p>
+            <p class="fs-montserrat text-white fs-50">Preparing for the winter, we gave you some opportunities to strenghten your soul</p>
+            <button class="product-btn large-btn text-red bg-white fs-poppins">Shop</button>
+        </div>
+    </section>
+
+    <!-- ============= END FEATURE SECTION ============== -->
+
+    <!-- ============== BEST SELLER PRODUCT ============= -->
+    <!-- Heading -->
+    <section class="best-product container">
+        <h2 class="letter-spacing bold-800 fs-poppins">Best Selling Products</h2>
+        <p class="fs-montserrat fs-100">There are many variations of weapons that are popular among fellas</p>
+    </section>
+
+    <section class="best-Seller grid">
+        <div class="product">
+            <img src="image/best1.jpg" alt="">
+            <p class="fs-poppins bold-500">Compound Bow</p>
+            <p class="fs-poppins bold-500">200$ / 1 Gold Coin</p>
+            <div class="product-details grid bg-red">
+                <i class="uil text-white uil-shopping-cart-alt"></i>
+                <i class="uil text-white uil-heart"></i>
+            </div>
+        </div>
+        <div class="product">
+            <img src="image/best1.jpg" alt="">
+            <p class="fs-poppins bold-500">Compound Bow</p>
+            <p class="fs-poppins bold-500">200$ / 1 Gold Coin</p>
+            <div class="product-details grid bg-red">
+                <i class="uil text-white uil-shopping-cart-alt"></i>
+                <i class="uil text-white uil-heart"></i>
+            </div>
+        </div>
+        <div class="product">
+            <img src="image/best1.jpg" alt="">
+            <p class="fs-poppins bold-500">Compound Bow</p>
+            <p class="fs-poppins bold-500">200$ / 1 Gold Coin</p>
+            <div class="product-details grid bg-red">
+                <i class="uil text-white uil-shopping-cart-alt"></i>
+                <i class="uil text-white uil-heart"></i>
+            </div>
+        </div>
+        <div class="product">
+            <img src="image/best1.jpg" alt="">
+            <p class="fs-poppins bold-500">Compound Bow</p>
+            <p class="fs-poppins bold-500">200$ / 1 Gold Coin</p>
+            <div class="product-details grid bg-red">
+                <i class="uil text-white uil-shopping-cart-alt"></i>
+                <i class="uil text-white uil-heart"></i>
+            </div>
+        </div>
+        <div class="product">
+            <img src="image/best1.jpg" alt="">
+            <p class="fs-poppins bold-500">Compound Bow</p>
+            <p class="fs-poppins bold-500">200$ / 1 Gold Coin</p>
+            <div class="product-details grid bg-red">
+                <i class="uil text-white uil-shopping-cart-alt"></i>
+                <i class="uil text-white uil-heart"></i>
+            </div>
+        </div>
+        <div class="product">
+            <img src="image/best1.jpg" alt="">
+            <p class="fs-poppins bold-500">Compound Bow</p>
+            <p class="fs-poppins bold-500">200$ / 1 Gold Coin</p>
+            <div class="product-details grid bg-red">
+                <i class="uil text-white uil-shopping-cart-alt"></i>
+                <i class="uil text-white uil-heart"></i>
+            </div>
+        </div>
+        <div class="product">
+            <img src="image/best1.jpg" alt="">
+            <div>
+            <p class="fs-poppins bold-500">Compound Bow</p>
+            <p class="fs-poppins bold-500">200$ / 1 Gold Coin</p>
+            <div class="product-details grid bg-red">
+                <i class="uil text-white uil-shopping-cart-alt"></i>
+                <i class="uil text-white uil-heart"></i>
+            </div>
+        </div>
+        <div class="product">
+            <img src="image/best1.jpg" alt="">
+            <p class="fs-poppins bold-500">Compound Bow</p>
+            <p class="fs-poppins bold-500">200$ / 1 Gold Coin</p>
+            <div class="product-details grid bg-red">
+                <i class="uil text-white uil-shopping-cart-alt"></i>
+                <i class="uil text-white uil-heart"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- =============== END BEST SELLER PRODUCT =============== -->
+
+    <!-- ================== Feature 2 Section ================== -->
+
+    <section class="feature-section bg-red">
+        <div class="feature-one grid">
+            <img src="image/feature1.png" alt="">
+            <div class="left-txt">
+                <p class="text-white fs-poppins uppercase lineheight2">Free Tuning</p>
+                <p class="fine font-size lineheight fs-500 text-white fs-poppins bold-900 uppercase">Fine <span class="smile">Weapon</span></p>
+                <p class="text-white fs-poppins fs-15 lineheight2">1 Sep - 30 Nov</p>
+            </div>
+        </div>
+        <div class="feature-info">
+            <h2 class="fs-200 text-white fs-poppins bold-800 uppercase">Winter is</h2>
+            <p class="fs-poppins fs-300 bold-800 text-white uppercase">Coming</p>
+            <p class="fs-montserrat text-white fs-50">Preparing for the winter, we gave you some opportunities to strenghten your soul</p>
+            <button class="product-btn large-btn text-red bg-white fs-poppins">Shop</button>
+        </div>
+    </section>
+
+    <!-- ============= END FEATURE SECTION ============== -->
+
+    <!-- ============== Heading Recent News ============= -->
+
+    <section class="best-product container">
+        <h2 class="letter-spacing bold-bolder fs-300 fs-poppins">Recent News</h2>
+        <p class="fs-montserrat fs-100">asukjdghyasuydfa</p>
+    </section>
+
+    <section class="recent-news grid">
+        <div class="news">
+            <img src="image/news1.jpeg" alt="">
+            <div class="fs-montserrat fs-100 padding-inline flex">
+                <p>January 2, 2024</p>
+                <p>by nanashi</p>
+            </div>
+            <h2 class="fs-poppins padding-inline fs-200 bold-600">How to choose perfect weapons for you</h2>
+            <p class="fs-montserrat padding-inline fs-100">I show you how to choose perfectt weapon for you to use, perfect weapon make fights feels good.</p>
+        </div>
+        <div class="news">
+            <img src="image/news2.jpg" alt="">
+            <div class="fs-montserrat fs-100 padding-inline flex">
+                <p>May 5, 2024</p>
+                <p>by pvpcommunity</p>
+            </div>
+            <h2 class="fs-poppins padding-inline fs-200 bold-600">Summer PvP</h2>
+            <p class="fs-montserrat padding-inline fs-100">Showing your skills using your own weapons, fight with homie. Of course it's just for fun.</p>
+        </div>
+        <div class="news">
+            <img src="image/news3.jpeg" alt="">
+            <div class="fs-montserrat fs-100 padding-inline flex">
+                <p>June 9, 2024</p>
+                <p>by moniyanguild</p>
+            </div>
+            <h2 class="fs-poppins padding-inline fs-200 bold-600">Dungeon RAIDS!</h2>
+            <p class="fs-montserrat padding-inline fs-100">This year, on halloween. Prepare for this fun things, train, sharpen, and collect treasures!</p>
+        </div>
+    </section>
+
+</body>
+</html>

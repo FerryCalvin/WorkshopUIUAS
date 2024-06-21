@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/solid.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/thinline.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/shop.css">
+    <script src="js/home.js" defer></script>
+    <script src="js/shop.js" defer></script>
+    <title>Gudang Senjata</title>
+</head>
+<body class="home">
+
+    <header class="primary-header container flex">
+        <div class="header-inner-one flex">
+            <div class="logo">
+                <img src="image/logo.png" alt="">
+            </div>
+            <button class="mobile-close-btn" data-visible="false" aria-controls="primary-navigation"><i class="uil uil-times-circle"></i></button>
+            <nav>
+                <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+                    <li><a class="fs-100 fs-montserrat bold-500" href="home.html">Home</a></li>
+                    <li><a class="active fs-100 fs-montserrat bold-500" href="shop.html">Shop</a></li>
+                    <li><a class="fs-100 fs-montserrat bold-500" href="about.html">About</a></li>
+                    <li><a class="fs-100 fs-montserrat bold-500" href="blog.html">Blog</a></li>
+                    <li><a class="fs-100 fs-montserrat bold-500" href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-login flex">
+            <p class="fs-100 fs-montserrat bold-500">login</p>
+            <i class="uil uil-search"></i>
+            <i id="cart-box" aria-controls="cart-icon" class="uil uil-shopping-bag"></i>
+
+            <!-- Cart Box -->
+            <div id="cart-icon" data-visible="false" class="cart-icon" >
+                <div class="shopping flex">
+                    <p>Shopping Basket</p>
+                    <i id="cross-btn" class="uil uil-times"></i>
+                </div>
+                <div class="cart bold-800 flex">
+                    <i class="uil uil-shopping-cart-alt"></i>
+                    <p>Your Cart is Empty</p>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-open-btn">
+            <i class="uil uil-align-right"></i>
+        </div>
+    </header>
+
+    <!-- =================== SHOP SECTION =================== -->
+
+    <!-- ================= SHOP FEATURE ================= -->
+
+    <section class="shop-feature bg-gray ">
+        <div>
+            <p class="fs-montserrat text-black">Home <span aria-haspopup="true" class="margin">> </span>Product</p>
+        </div>
+        <h2 class="fs-poppins fs-300 bold-700">Products</h2>
+    </section>
+
+    <!-- ====================== SECTION 2====================== -->
+
+    <main class="shop-main-container">
+        <div>
+            <div class="shop-title flex">
+                <div>
+                    <h2 class="fs-poppins fs-300">Shop</h2>
+                    <p class="fs-montserrat"> Showing 1-9 of 10 results</p>
+                </div>
+                <div>
+                    <select name="text" class="fs-poppins bg-black text-white">
+                        <option value="text">Default Sorting</option>
+                        <option value="text">Sort by Popularity</option>
+                        <option value="text">Sort by Average Rating</option>
+                        <option value="text">Sort by Latest</option>
+                        <option value="text">Sort by Price</option>
+                        <option value="text">Sort by Low to High</option>
+                        <option value="text">Sort by High to Low</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- ====================== SHOP SIDEBAR =================== -->
+
+        <section>
+            <div class="sidebar-search text-black bg-gray flex">
+                <input type="text" placeholder="Search Her" class="fs-montserrat bg-gray">
+                <div>
+                    <i class="uil bg-red text-white uil-search"></i>
+                </div>
+            </div>
+
+            <aside class="sidebar-category">
+                <div class="category-list flex">
+                    <h3 class="fs-poppins bold-700 fs-200">Product Categories</h3>
+                    <i id="arrow"class="uil uil-angle-right" data-category="false"></i>
+                </div>
+
+                <!-- =============Category-List=========== -->
+
+                <div class="shop-category-list">
+                    <ul id="side-nav" class="sidebar-nav " data-category="false">
+                        <li><a class="fs-montserrat text-black bold-500" href="#">One-Handed</a></li>
+                        <li><a class="fs-montserrat text-black bold-500" href="#">Two-Handed</a></li>
+                        <li><a class="fs-montserrat text-black bold-500" href="#">Projectile</a></li>
+                        <li><a class="fs-montserrat text-black bold-500" href="#">Weirdos</a></li>
+                        <li><a class="fs-montserrat text-black bold-500" href="#">Specialty</a></li>
+
+                    </ul>
+                </div>
+
+            </aside>
+        </section>
+
+    <!-- ============================== END INNER SECTION ========================= -->
+
+<!-- ======================SHOP PRODUCT==================== -->
+
+            <section class="shop-product grid">
+                <div class="product-list">
+                    <img src="image/best1.jpg" alt="">
+                    <p class="fs-montserrat bold-600">Beats</p>
+                    <p class="fs-montserrat bold-600">$ 995.00</p>
+                    <div class="shop-btn flex">
+                        <button class="bg-red text-white fs-montserrat">Add To Cart</button>
+                    </div>
+
+                    <!-- ================== pop up ================ -->
+
+                    <div class="pup-up">
+                        <p class="fs-poppins">Sell</p>
+                    </div>
+
+                </div>
+
+<!-- ====================== BOUNDARIES =================== -->
+
+                <div class="product-list">
+                    <img src="image/best1.jpg" alt="">
+                    <p class="fs-montserrat bold-600">Beats</p>
+                    <p class="fs-montserrat bold-600">$ 995.00</p>
+                    <div class="shop-btn flex">
+                        <button class="bg-red text-white fs-montserrat">Add To Cart</button>
+                    </div>
+
+                    <!-- ================== pup up ================ -->
+
+                    <div class="pup-up">
+                        <p class="fs-poppins">Sell</p>
+                    </div>
+
+                </div>
+
+<!-- ====================== BOUNDARIES =================== -->
+
+                <div class="product-list">
+                    <img src="image/best1.jpg" alt="">
+                    <p class="fs-montserrat bold-600">Beats</p>
+                    <p class="fs-montserrat bold-600">$ 995.00</p>
+                    <div class="shop-btn flex">
+                        <button class="bg-red text-white fs-montserrat">Add To Cart</button>
+                    </div>
+
+                    <!-- ================== pup up ================ -->
+
+                    <div class="pup-up">
+                        <p class="fs-poppins">Sell</p>
+                    </div>
+
+                </div>
+
+<!-- ====================== BOUNDARIES =================== -->
+
+                <div class="product-list">
+                    <img src="image/best1.jpg" alt="">
+                    <p class="fs-montserrat bold-600">Beats</p>
+                    <p class="fs-montserrat bold-600">$ 995.00</p>
+                    <div class="shop-btn flex">
+                        <button class="bg-red text-white fs-montserrat">Add To Cart</button>
+                    </div>
+
+                    <!-- ================== pup up ================ -->
+
+                    <div class="pup-up">
+                        <p class="fs-poppins">Sell</p>
+                    </div>
+
+                </div>
+
+<!-- ====================== BOUNDARIES =================== -->
+
+                <div class="product-list">
+                    <img src="image/best1.jpg" alt="">
+                    <p class="fs-montserrat bold-600">Beats</p>
+                    <p class="fs-montserrat bold-600">$ 995.00</p>
+                    <div class="shop-btn flex">
+                        <button class="bg-red text-white fs-montserrat">Add To Cart</button>
+                    </div>
+
+                    <!-- ================== pup up ================ -->
+
+                    <div class="pup-up">
+                        <p class="fs-poppins">Sell</p>
+                    </div>
+
+                </div>
+
+<!-- ====================== BOUNDARIES =================== -->
+
+                <div class="product-list">
+                    <img src="image/best1.jpg" alt="">
+                    <p class="fs-montserrat bold-600">Beats</p>
+                    <p class="fs-montserrat bold-600">$ 995.00</p>
+                    <div class="shop-btn flex">
+                        <button class="bg-red text-white fs-montserrat">Add To Cart</button>
+                    </div>
+
+                    <!-- ================== pup up ================ -->
+
+                    <div class="pup-up">
+                        <p class="fs-poppins">Sell</p>
+                    </div>
+
+                </div>
+
+<!-- ====================== BOUNDARIES =================== -->
+
+                <div class="product-list">
+                    <img src="image/best1.jpg" alt="">
+                    <p class="fs-montserrat bold-600">Beats</p>
+                    <p class="fs-montserrat bold-600">$ 995.00</p>
+                    <div class="shop-btn flex">
+                        <button class="bg-red text-white fs-montserrat">Add To Cart</button>
+                    </div>
+
+                    <!-- ================== pup up ================ -->
+
+                    <div class="pup-up">
+                        <p class="fs-poppins">Sell</p>
+                    </div>
+
+                </div>
+
+<!-- ====================== BOUNDARIES =================== -->
+
+                <div class="product-list">
+                    <img src="image/best1.jpg" alt="">
+                    <p class="fs-montserrat bold-600">Beats</p>
+                    <p class="fs-montserrat bold-600">$ 995.00</p>
+                    <div class="shop-btn flex">
+                        <button class="bg-red text-white fs-montserrat">Add To Cart</button>
+                    </div>
+
+                    <!-- ================== pup up ================ -->
+
+                    <div class="pup-up">
+                        <p class="fs-poppins">Sell</p>
+                    </div>
+
+                </div>
+
+<!-- ====================== BOUNDARIES =================== -->
+
+                <div class="product-list">
+                    <img src="image/best1.jpg" alt="">
+                    <p class="fs-montserrat bold-600">Beats</p>
+                    <p class="fs-montserrat bold-600">$ 995.00</p>
+                    <div class="shop-btn flex">
+                        <button class="bg-red text-white fs-montserrat">Add To Cart</button>
+                    </div>
+
+                    <!-- ================== pup up ================ -->
+
+                    <div class="pup-up">
+                        <p class="fs-poppins">Sell</p>
+                    </div>
+
+                </div>
+
+<!-- ====================== BOUNDARIES =================== -->
+
+            </section>
+        </div>
+
+        
+
+    </main>
+
+
+
+    <!-- ====================== BRANDS ==================== -->
+
+    <section class="brands">
+        <div>
+            <img src="image/br1.png" alt="">
+        </div>
+        <div>
+            <img src="image/br2.png" alt="">
+        </div>
+        <div>
+            <img src="image/br3.png" alt="">
+        </div>
+        <div>
+            <img src="image/br4.png" alt="">
+        </div>
+        <div>
+            <img src="image/br5.png" alt="">
+        </div>
+        <div>
+            <img src="image/br6.png" alt="">
+        </div>
+    </section>
+
+    <!-- ============= END BRANDS ============ -->
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-logo">
+                <img src="image/logo.png" alt="Logo">
+            </div>
+            <div class="footer-links">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact</h3>
+                <p>+62 (0) 81232667500<br>Fairnanda Kurnia Gusty<br>Surabaya, 12343</p>
+            </div>
+            <div class="footer-subscribe">
+                <h3>Subscribe</h3>
+                <p>Subscribe for latest updates.</p>
+                <form class="subscribe-form">
+                    <input type="email" placeholder="Enter Your Email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Gudang Senjata. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

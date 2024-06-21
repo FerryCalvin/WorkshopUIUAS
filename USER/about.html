@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/solid.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/thinline.css">
+    <link rel="stylesheet" href="css/home.css"> 
+    <link rel="stylesheet" href="css/shop.css">
+    <link rel="stylesheet" href="css/about.css">
+    <script src="js/home.js" defer></script>
+    <script src="js/shop.js" defer></script>
+    <script src="js/about.js" defer></script>
+    <title>Gudang Senjata</title>
+</head>
+<body class="home">
+
+    <header class="primary-header container flex">
+        <div class="header-inner-one flex">
+            <div class="logo">
+                <img src="image/logo.png" alt="">
+            </div>
+            <button class="mobile-close-btn" data-visible="false" aria-controls="primary-navigation"><i class="uil uil-times-circle"></i></button>
+            <nav>
+                <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+                    <li><a class="fs-100 fs-montserrat bold-500" href="home.html">Home</a></li>
+                    <li><a class="fs-100 fs-montserrat bold-500" href="shop.html">Shop</a></li>
+                    <li><a class="active fs-100 fs-montserrat bold-500" href="about.html">About</a></li>
+                    <li><a class="fs-100 fs-montserrat bold-500" href="blog.html">Blog</a></li>
+                    <li><a class="fs-100 fs-montserrat bold-500" href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-login flex">
+            <p class="fs-100 fs-montserrat bold-500">login</p>
+            <i class="uil uil-search"></i>
+            <i id="cart-box" aria-controls="cart-icon" class="uil uil-shopping-bag"></i>
+
+            <!-- Cart Box -->
+            <div id="cart-icon" data-visible="false" class="cart-icon" >
+                <div class="shopping flex">
+                    <p>Shopping Basket</p>
+                    <i id="cross-btn" class="uil uil-times"></i>
+                </div>
+                <div class="cart bold-800 flex">
+                    <i class="uil uil-shopping-cart-alt"></i>
+                    <p>Your Cart is Empty</p>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-open-btn">
+            <i class="uil uil-align-right"></i>
+        </div>
+    </header>
+
+    <!-- ============= end header =========== -->
+
+    <!-- ============= ABOUT MAIN =========== -->
+
+    <!-- =========== Feature Section =========== -->
+
+      <section class="shop-feature bg-gray ">
+        <div>
+            <p class="fs-montserrat text-black">Home <span aria-haspopup="true" class="margin">> </span>About</p>
+        </div>
+        <h2 class="fs-poppins fs-300 bold-700">About Us</h2>
+    </section>
+
+    <!-- ========= ABOUT MAIN SECTION ========== -->
+
+    <section class="about-section ">
+        <div>
+            <img src="image/about-us.jpg" alt="">
+        </div>
+        <div class="about-info">
+            <h3 class="fs-poppins fs-200 text-red">Welcome to Gudang Senjata, Your Ultimate Destination for Weapons of All Kinds</h3>
+            <p>At Gudang Senjata, we understand that the fascination with weaponry transcends time and media. Our mission is to provide a comprehensive platform for enthusiasts, collectors, and professionals to explore and acquire a diverse range of weapons, from the most realistic to the most fantastical.</p>
+            <h1 class="fs-montserrat fs-500">Who We Are?</h1>
+            <p>Founded by a weapon aficionados unique human, Gudang Senjata is more than just a marketplace. We are a community dedicated to the appreciation of the art, history, and culture of weaponry. Whether you're a adventurer, a knight, a pleasant, or a practitioner, you'll find something here to ignite your interest.</p>
+        </div>
+    </section>
+
+    <!-- ============== BRANDS ================= -->
+
+    <section class="brands">
+        <div>
+            <img src="image/br1.png" alt="">
+        </div>
+        <div>
+            <img src="image/br2.png" alt="">
+        </div>
+        <div>
+            <img src="image/br3.png" alt="">
+        </div>
+        <div>
+            <img src="image/br4.png" alt="">
+        </div>
+        <div>
+            <img src="image/br5.png" alt="">
+        </div>
+        <div>
+            <img src="image/br6.png" alt="">
+        </div>
+    </section>
+
+    <!-- ============= END BRANDS ============ -->
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-logo">
+                <img src="image/logo.png" alt="Logo">
+            </div>
+            <div class="footer-links">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact</h3>
+                <p>+62 (0) 81232667500<br>Fairnanda Kurnia Gusty<br>Surabaya, 12343</p>
+            </div>
+            <div class="footer-subscribe">
+                <h3>Subscribe</h3>
+                <p>Subscribe for latest updates.</p>
+                <form class="subscribe-form">
+                    <input type="email" placeholder="Enter Your Email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Gudang Senjata. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

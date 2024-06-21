@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/solid.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/thinline.css">
-    <link rel="stylesheet" href="home.css">
-    <script src="home.js" defer></script>
+    <link rel="stylesheet" href="css/home.css">
+    <script src="js/home.js" defer></script>
     <title>Gudang Senjata</title>
 </head>
 <body class="home">
@@ -37,7 +37,7 @@
             <i id="cart-box" aria-controls="cart-icon" class="uil uil-shopping-bag"></i>
 
             <!-- Cart Box -->
-            <div id="cart-icon" data-visible="false" class="cart-icon">
+            <div id="cart-icon" data-visible="false" class="cart-icon" >
                 <div class="shopping flex">
                     <p>Shopping Basket</p>
                     <i id="cross-btn" class="uil uil-times"></i>
@@ -47,7 +47,6 @@
                     <p>Your Cart is Empty</p>
                 </div>
             </div>
-
         </div>
         <div class="mobile-open-btn">
             <i class="uil uil-align-right"></i>
@@ -284,7 +283,6 @@
         </div>
         <div class="product">
             <img src="image/best1.jpg" alt="">
-            <div>
             <p class="fs-poppins bold-500">Compound Bow</p>
             <p class="fs-poppins bold-500">200$ / 1 Gold Coin</p>
             <div class="product-details grid bg-red">
@@ -307,7 +305,7 @@
 
     <!-- ================== Feature 2 Section ================== -->
 
-    <section class="feature-section bg-red">
+    <section class="feature-section bg-yellow">
         <div class="feature-one grid">
             <img src="image/feature1.png" alt="">
             <div class="left-txt">
@@ -320,7 +318,7 @@
             <h2 class="fs-200 text-white fs-poppins bold-800 uppercase">Winter is</h2>
             <p class="fs-poppins fs-300 bold-800 text-white uppercase">Coming</p>
             <p class="fs-montserrat text-white fs-50">Preparing for the winter, we gave you some opportunities to strenghten your soul</p>
-            <button class="product-btn large-btn text-red bg-white fs-poppins">Shop</button>
+            <button class="product-btn large-btn text-yellow bg-white fs-poppins">Shop</button>
         </div>
     </section>
 
@@ -362,6 +360,104 @@
             <p class="fs-montserrat padding-inline fs-100">This year, on halloween. Prepare for this fun things, train, sharpen, and collect treasures!</p>
         </div>
     </section>
+
+    <!-- ============== BRANDS ================= -->
+
+    <section class="brands">
+        <div>
+            <img src="image/br1.png" alt="">
+        </div>
+        <div>
+            <img src="image/br2.png" alt="">
+        </div>
+        <div>
+            <img src="image/br3.png" alt="">
+        </div>
+        <div>
+            <img src="image/br4.png" alt="">
+        </div>
+        <div>
+            <img src="image/br5.png" alt="">
+        </div>
+        <div>
+            <img src="image/br6.png" alt="">
+        </div>
+    </section>
+
+    <!-- ============= END BRANDS ============ -->
+
+    <!-- ============ FOOTER ============= -->
+     <!-- <section class="footer grid">
+        <div class="footer-logo grid">
+            <img src="image/logo.png" alt="">
+            <p class="fs-montserrat fs-200">Gudang Senjata</p>
+            <div class="social-media flex">
+                <i class="uil uil-facebook-f"></i>
+                <i class="uil uil-twitter"></i>
+                <i class="uil uil-instagram"></i>
+                <i class="uil uil-youtube"></i>
+            </div>
+        </div>
+            <div class="footer-menu grid">
+                <h3 class="fs-poppins fs-200 bold-800">Teleporter</h3>
+                <ul>
+                    <li><a class="fs-montserrat text-black fs-200" href="#">Home</a></li>
+                    <li><a class="fs-montserrat text-black fs-200" href="#">About</a></li>
+                    <li><a class="fs-montserrat text-black fs-200" href="#">Shop</a></li>
+                    <li><a class="fs-montserrat text-black fs-200" href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="contact grid">
+                <h3 class="fs-poppins fs-200 bold-800">Contact</h3>
+                <p class="fs-montserrat">+62 (0) 81232667500 Fairnanda Kurnia Gusty Surabaya, 12343</p>
+            </div>
+            <div class="emails grid">
+                <h3 class="fs-poppins fs-200 bold-800">Sub To Our Email</h3>
+                <p class="updates fs-poppins fs-300 bold-800">For Latest News & Updates</p>
+                <div class="inputField flex">
+                    <input type="email" placeholder="Enter Your Email" class="fs-montserrat bg-gray">
+                    <button class="bg-red text-white fs-poppins fs-50">Subscribe</button>
+                </div>
+            </div>
+     </section> -->
+
+     <!-- =================== COPYRIGHT =================== -->
+
+     <!-- <section class="copyright">
+        <p class=" fs-montserrat fs-200"></p>
+     </section> -->
+
+     <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-logo">
+                <img src="image/logo.png" alt="Logo">
+            </div>
+            <div class="footer-links">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact</h3>
+                <p>+62 (0) 81232667500<br>Fairnanda Kurnia Gusty<br>Surabaya, 12343</p>
+            </div>
+            <div class="footer-subscribe">
+                <h3>Subscribe</h3>
+                <p>Subscribe for latest updates.</p>
+                <form class="subscribe-form">
+                    <input type="email" placeholder="Enter Your Email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Gudang Senjata. All rights reserved.</p>
+        </div>
+    </footer>
 
 </body>
 </html>

@@ -33,7 +33,6 @@ const crossBtn = document.getElementById('cross-btn');
 
 shoppingBag.addEventListener('click', ()=>{
     const showCart = CartItem.getAttribute('data-visible');
-
     if(showCart === 'false'){
         CartItem.setAttribute('data-visible', true)
     } else {
@@ -43,7 +42,6 @@ shoppingBag.addEventListener('click', ()=>{
 
 crossBtn.addEventListener('click', ()=>{
     const showCart = CartItem.getAttribute('data-visible');
-
     if(showCart === 'true'){
         CartItem.setAttribute('data-visible', false)
     }

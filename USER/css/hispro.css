@@ -58,6 +58,9 @@ h2 {
         flex: 1 1 45%;
         margin-right: 20px;
     }
+    .item img {
+        border-radius: 1rem;
+    }
     .item:nth-child(2n) {
         margin-right: 0;
     }
@@ -73,6 +76,7 @@ h2 {
     .item img {
         max-width: 100%;
         margin: 0 0 10px 0;
+        border-radius: 1rem;
     }
     .item-details button {
         width: 100%;

@@ -10,11 +10,13 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/thinline.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/home.css"> 
-    <link rel="stylesheet" href="css/shop.css">
-    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/detpro.css">
+    <link rel="stylesheet" href="css/payment.css">
+    <link rel="stylesheet" href="css/hispro.css">
     <script src="js/home.js" defer></script>
-    <script src="js/shop.js" defer></script>
-    <script src="js/about.js" defer></script>
+    <script src="js/payment.js" defer></script>
+    <script src="js/detpro .js" defer></script>
+    <script src="js/hispro.js" defer></script>
     <title>Gudang Senjata</title>
 </head>
 <body class="home">
@@ -60,37 +62,49 @@
         </div>
     </header>
 
-    <!-- ============= end header =========== -->
+    <!-- =============== Main ================= -->
 
-    <!-- ============= ABOUT MAIN =========== -->
-
-    <!-- =========== Feature Section =========== -->
-
-      <section class="shop-feature bg-gray grid">
-        <div>
-            <p class="fs-montserrat text-black">Home <span aria-haspopup="true" class="margin">> </span>About</p>
+    <main>
+        <div class="container-histori">
+            <h2 class="fs-poppins">Transaction History</h2>
+            <div class="transaction-history">
+                <div class="transaction">
+                    <div class="transaction-details">
+                        <p class="fs-poppins"><strong>Order ID:</strong> 123456</p>
+                        <p class="fs-poppins"><strong>Date:</strong> June 24, 2024</p>
+                        <p class="fs-poppins"><strong>Total:</strong> 2 Gold Coin</p>
+                    </div>
+                    <div class="transaction-items">
+                        <div class="item">
+                            <img src="image/best1.jpg" alt="Product 1">
+                            <div class="item-details">
+                                <p class="fs-poppins"><strong>Product Name:</strong> Compound Bow</p>
+                                <p class="fs-poppins"><strong>Quantity:</strong> 2</p>
+                                <p class="fs-poppins"><strong>Price:</strong> 2 Gold Coin</p>
+                                <button class="fs-poppins">Buy Again</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="transaction">
+                    <div class="transaction-details">
+                        <p class="fs-poppins"><strong>Order ID:</strong> 123456</p>
+                        <p class="fs-poppins"><strong>Date:</strong> June 20, 2024</p>
+                        <p class="fs-poppins"><strong>Total:</strong> 2 Gold Coins</p>
+                    </div>
+                    <div class="transaction-items">
+                        <div class="item">
+                            <img src="image/best4.jpg" alt="Product 1">
+                            <div class="item-details">
+                                <p class="fs-poppins"><strong>Product Name:</strong> Sword</p>
+                                <p class="fs-poppins"><strong>Quantity:</strong> 2</p>
+                                <p class="fs-poppins"><strong>Price:</strong> 1 Gold Coins</p>
+                                <button class="fs-poppins" >Buy Again</button>
+                            </div>
+                        </div>
+            </div>
         </div>
-        <h2 class="fs-poppins fs-300 bold-700">About Us</h2>
-    </section>
-
-    <!-- ========= ABOUT MAIN SECTION ========== -->
-
-    <section class="about-section grid">
-        <div>
-            <img src="image/about-us.jpg" alt="">
-        </div>
-        <div class="about-info">
-            <h3 class="fs-poppins fs-200 text-red">Welcome to Gudang Senjata</h3>
-            <h1 class="fs-montserrat fs-500 text-black">Who We Are?</h1>
-            <p class="fs-montserrat fs-100">Founded by a unique human and passionate weapon aficionados, Gudang Senjata is more than just a marketplace, we are a thriving community dedicated to the appreciation of the art, history, and culture of weaponry. Our journey began with a shared love for arms and armor, fueled by a desire to create a space where enthusiasts could gather, learn, and celebrate their passion for weaponry. <br><br>
-
-                At Gudang Senjata, we cater to a diverse audience. Whether you're an adventurous spirit seeking relics of ancient battles, a modern-day knight in pursuit of finely crafted arms, a historian unraveling the stories behind legendary weapons, or a practitioner honing your skills, you'll find something here to ignite your interest. Our curated collection spans across genres and eras, offering a blend of traditional craftsmanship and innovative designs. <br><br>
-                
-                We believe that the allure of weaponry extends beyond practical use, it embodies a deep-rooted connection to human history and imagination. It is this understanding that drives our mission to provide a comprehensive platform for enthusiasts, collectors, and professionals alike. Through Gudang Senjata, we aim to foster a community where knowledge is shared, stories are told, and the legacy of weapons is celebrated. <br><br>
-                
-                Join us on our quest to explore the realms of armament, where every piece tells a story and every encounter sparks curiosity. Whether you're a novice eager to learn or a seasoned collector in search of the extraordinary, Gudang Senjata welcomes you to embark on a journey through the fascinating world of weaponry.</p>
-        </div>
-    </section>
+    </main>
 
     <!-- ============== BRANDS ================= -->
 
@@ -117,7 +131,7 @@
 
     <!-- ============= END BRANDS ============ -->
 
-    <footer class="footer">
+     <footer class="footer">
         <div class="footer-inner">
             <div class="footer-logo">
                 <img src="image/logo.png" alt="Logo">
@@ -147,6 +161,6 @@
             <p class="fs-poppins text-black">&copy; 2024 Gudang Senjata. All rights reserved.</p>
         </div>
     </footer>
-
+    
 </body>
 </html>

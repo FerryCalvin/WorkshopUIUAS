@@ -9,6 +9,7 @@ button{cursor: pointer;}
 /* ============= Shop Feature Section ================== */
 
 .shop-feature{
+    display: grid;
     width: 100vw;
     place-items: center;
     padding: 3rem 0;
@@ -17,9 +18,12 @@ button{cursor: pointer;}
 /* ================ Section 2 ============= */
 
 .shop-main-container {
+    display: flex;
     width: 90vw;
     margin-inline: auto;
     margin-block: 2rem;
+    grid-template-areas: 
+    'one two';
 }
 
 .shop-title {
@@ -120,6 +124,8 @@ button{cursor: pointer;}
         --grid-gap: 2rem;
         grid-auto-columns: 1fr;
         grid-template-columns: auto 20vw;
+        grid-template-areas: 
+        'one two';
     }
 
     .shop-main-container >*:first-child{
@@ -138,6 +144,9 @@ button{cursor: pointer;}
     }
     .sidebar-search{
         padding-inline: 1rem;
+    }
+    .sidebar-search >* i {
+        right: 5;
     }
     .category-list >h3{
         font-size: 1rem;
@@ -180,13 +189,17 @@ button{cursor: pointer;}
         "nine";
     }
     .sidebar-search{
-        padding-inline: 1rem;
+        /* padding-inline: -2rem; */
     }
     .category-list >h3{
         font-size: 1rem;
     }
     .product-list .shop-btn{
         transform: translateX(-48%);
+    }
+
+    .sidebar-search > * i {
+        margin-right: -1rem;
     }
 }
 
@@ -196,6 +209,7 @@ button{cursor: pointer;}
     border-radius: 2rem;
     align-items: center;
     margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .sidebar-search input {
